@@ -3,8 +3,78 @@
     <head>
         <meta charset="utf-8">
         <title>HTML5 Rocks!</title>
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <header class="header">
+            <nav>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="aside">
+            <aside>
+                <h4>Esto es un aside!</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+            </aside>
+        </section>
+        <section class="main">
+            <article>
+                <h3>Contenido de Ejemplo</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </article>
+        </section>
+        <section class="forms">
+            <h3>Formularios</h3>
+            <form action="/" method="get">
+                <label for="texto">Text :</label>
+                <input type="text" name="texto" id="texto" placeholder="Introduzca un Texto" required>
+                <br /><br />
+                <label for="numero">Number :</label>
+                <input type="number" name="numero" id="numero" placeholder="Introduzca un Numero" required>
+                <br /><br />
+                <label for="fecha">Date :</label>
+                <input type="date" name="fecha" id="fecha" required>
+                <br /><br />
+                <label for="tiempo">Time :</label>
+                <input type="time" name="tiempo" id="tiempo" required>
+                <br /><br />
+                <label for="rango">Range :</label>
+                <input type="range" name="rango" id="rango" required>
+                <br /><br />
+                <label for="colores">Color :</label>
+                <input type="color" name="colores" id="colores" required>
+                <br /><br />
+                <input type="submit" name="Enviar">
+            </form>
+        </section>
+        <section class="multimedia">
+            <h3>Audio</h3>
+            <audio class="media" controls>
+                <source src="./media/audio.mp3" type="audio/mpeg">
+            </audio>
+            <br /><br />
+            <h3>Video</h3>
+            <video class="media" controls height="240">
+                <source src="./media/video.mp4" type="video/mp4">
+            </video>
+        </section>
+        <footer class="footer">
+            Copyright (c) 2017 Copyright Holder All Rights Reserved.
+        </footer>
     </body>
 </html>
